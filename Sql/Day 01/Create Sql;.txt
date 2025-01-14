@@ -1,0 +1,3 @@
+//create sql query
+
+CREATE DATABASE university;
