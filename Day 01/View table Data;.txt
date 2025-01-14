@@ -1,0 +1,13 @@
+//verify or view data
+
+SELECT * FROM classroom;
+SELECT * FROM department;
+SELECT * FROM course;
+SELECT * FROM instructor;
+SELECT * FROM section;
+SELECT * FROM teaches;
+SELECT * FROM student;
+SELECT * FROM takes;
+SELECT * FROM advisor;
+SELECT * FROM time_slot;
+SELECT * FROM prereq;
