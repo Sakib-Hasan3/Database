@@ -1,0 +1,18 @@
+Sql> 
+select name
+from instructor; #The instructor’s name appears in the name attribute
+
+Sql> select dept_name #“Find the department names of all instructors,
+from instructor;
+
+Sql> select all dept_name  #returns all department name from instructor
+from instructor;
+
+Sql> select ID, name, dept name, salary * 1.1  #returns a relation that is the same as the instructor relation,
+from instructor;
+
+Question : Result of “Find the names of all instructors in the Computer Science department who have salary greater than $70,000.”
+
+Sql> select name
+from instructor
+where dept name = 'Computer Science.' and salary > 70000; 
