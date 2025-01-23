@@ -1,0 +1,15 @@
+SQL> select *  #generates every possible instructor – teaches pair, with all attributes from both relations.
+from instructor, teaches
+
+SQL> #Find the names of all instructors who have taught some course and the course_id
+
+select name, course_id
+from instructor , teaches
+where instructor.ID = teaches.ID 
+ 
+SQL> #Find the names of all instructors in the Art  department who have taught some course and the course_id
+
+select name, course_id
+from instructor , teaches
+where instructor.ID = teaches.ID  
+          and  instructor. dept_name = 'Art'

@@ -1,0 +1,12 @@
+SQL> select name, instructor.dept name, building #SELECT MULTIPLE COLUMN
+from instructor, department
+where instructor.dept name= department.dept name; 
+
+
+SQL> select name, course id
+from instructor, teaches
+where instructor.ID= teaches.ID;
+
+SQL> select name, course id
+from instructor, teaches
+where instructor.ID= teaches.ID and instructor.dept name = 'Comp. Sci.';

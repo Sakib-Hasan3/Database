@@ -1,0 +1,7 @@
+SQL> select name      #To find all instructors in Comp. Sci. dept
+     from instructor
+     where dept_name = 'Comp. Sci.'
+
+SQL> select name  #To find all instructors in Comp. Sci. dept with salary > 70000
+from instructor
+where dept_name = 'Comp. Sci.'  and salary > 70000
