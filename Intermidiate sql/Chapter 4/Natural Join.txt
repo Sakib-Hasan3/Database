@@ -3,6 +3,7 @@ FROM student
 JOIN takes ON student.ID = takes.ID;
 
 
+
 SQL>
 #Same query in SQL with “natural join” construct
 
