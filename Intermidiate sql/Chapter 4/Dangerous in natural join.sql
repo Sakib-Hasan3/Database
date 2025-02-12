@@ -1,3 +1,4 @@
+
 #Dangerous in Natural Joins
 
 
