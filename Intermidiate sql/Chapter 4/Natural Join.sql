@@ -1,3 +1,4 @@
+
 SQL> SELECT student.name, takes.course_id #join two tuple from two table
 FROM student
 JOIN takes ON student.ID = takes.ID;
