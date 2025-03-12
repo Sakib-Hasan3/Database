@@ -1,4 +1,3 @@
-
 1. Find names of instructors with salary greater than that of some (at least one) instructor in the Biology department.
 
 SQL>
