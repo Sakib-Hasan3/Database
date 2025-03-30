@@ -1,6 +1,4 @@
-
 #Dangerous in Natural Joins
-
 
 1. Unintended Attribute Matching
 2. Loss of Information (Column Dropping)
